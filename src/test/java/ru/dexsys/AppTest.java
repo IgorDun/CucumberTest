@@ -9,7 +9,7 @@ import org.junit.runner.RunWith;
 @RunWith(Cucumber.class)
 @CucumberOptions(
         features = {
-                "C:\\Users\\Igor\\IdeaProjects\\PetStore\\CucumberTest\\src\\test\\resources\\coffee_machine_test.features"
+                "src/test/resources/"
         },
         glue = {
                 "ru.dexsys.steps"
